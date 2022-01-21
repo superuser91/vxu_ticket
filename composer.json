@@ -1,0 +1,30 @@
+{
+    "name": "vgplay/vxu_ticket",
+    "description": "Vxu",
+    "type": "package",
+    "require": {
+        "php": "^7",
+        "laravel/framework": "^6|^7|^8",
+        "vgplay/laravel-cached-setting": "^1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vgplay\\VxuTicket\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dung199551",
+            "email": "dung199551@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vgplay\\VxuTicket\\VxuTicketServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
